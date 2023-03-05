@@ -1,0 +1,29 @@
+The PEP8 Python style guide
+When you write code, you should adhere to the conventions of the programming language you use.
+
+If you learn the right naming and formatting conventions right from the start, it will be easier to read code written by other people, and people will find your code easier to read.
+
+Python defines its conventions in the PEP8 style guide. PEP stands for Python Enhancement proposals and it's the place where all Python language enhancements and discussions happen. There are a lot of PEP proposals, all available at https://www.python.org/dev/peps/. 
+
+PEP8 is one of the first ones, and one of the most important, too. It defines the formatting and also some rules on how to write Python in a "pythonic" way. 
+
+You can read its full content here: https://www.python.org/dev/peps/pep-0008/. but here's a quick summary of the important points you can start with:
+
+•	Indent using spaces, not tabs
+•	Indent using 4 spaces.
+•	Python files are encoded in UTF-8
+•	Use maximum 80 columns for your code
+•	Write each statement on its own line
+•	Functions, variable names and file names are
+•	lowercase, with underscores between words (snake_case)
+•	Class names are capitalized, separate words are
+•	written with the capital letter too, (CamelCase)
+•	Package names are lowercase and do not have underscores between words
+•	Variables that should not change (constants) are written in uppercase
+•	Variable names should be meaningful
+•	Add useful comments, but avoid obvious comments
+•	Add spaces around operators
+•	Do not use unnecessary whitespace
+•	Add a blank line before a function
+•	Add a blank line between methods in a class
+•	Inside functions/methods, blank lines can be used to separate related blocks of code to help readability
