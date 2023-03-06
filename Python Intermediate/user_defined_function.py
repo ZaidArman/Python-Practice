@@ -25,12 +25,6 @@ print(myfun(5,3, "Hello Arman"))
 print(myfun(5,3))
 print(myfun(10))
 
-
-
-
-
-
-
 # Note:
 """ 
 There is no function overloading in Python.

@@ -14,8 +14,7 @@ print("Loop Ended! ")
 for x in range( 3 , 14 ):
   print(x)
 
-# Custom increments in range
-# it is also possible to specify the increment value by adding a third parameter.
+# Custom increments in range: it is also possible to specify the increment value by adding a third parameter.
 i = 20
 for i in range(20, 45, 2 ): # incremented by 2
   print( i )
