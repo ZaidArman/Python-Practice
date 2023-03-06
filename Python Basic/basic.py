@@ -2,19 +2,19 @@
 
 a = -5          # Integer variable
 print(a)
-print(type(a))
+print(type(a)) # Print the type of a
 
 b = 4.0         # Float variable
 print(b)
-print(type(b))
+print(type(b)) # Print the type of b
 
 s = "1234abc"   # String variable
 print(s)
-print(type(s))
+print(type(s)) # Print the type of s
 
-array = [1, "ab", 3, "name"]    # Array variable
-print(array)
-print(type(array))
+arr = [1, "ab", 3, "name"]    # Array variable
+print(arr)
+print(type(arr)) # Print the type of array
 
 
 """
