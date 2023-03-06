@@ -1,5 +1,8 @@
-# Python’s lambda creates anonymous functions
-# The lambda expression must fit on one line
+# lambda function
+"""
+Python's lambda creates anonymous functions
+The lambda expression must fit on one line
+"""
 Lamdbaa = (lambda z: z * 42, 7)
 print(Lamdbaa) 
 

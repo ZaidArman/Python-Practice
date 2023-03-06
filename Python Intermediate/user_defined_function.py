@@ -28,5 +28,4 @@ print(myfun(10))
 # Note:
 """ 
 There is no function overloading in Python.
-
 """
