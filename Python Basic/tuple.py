@@ -3,10 +3,10 @@ print(my_tuple) # printing the tuple
 
 # accessing elements of a tuple
 print(my_tuple[0])
-# print(my_tuple[1])
-# print(my_tuple[2])
-# print(my_tuple[3])
-# print(my_tuple[4])
+print(my_tuple[1])
+print(my_tuple[2])
+print(my_tuple[3])
+print(my_tuple[4])
 
 # As with strings and lists, using a negative index will start searching from the end:
 print(my_tuple[-2]) # four

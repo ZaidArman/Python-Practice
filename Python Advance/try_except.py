@@ -93,3 +93,41 @@ finally:
 -- If there is no exception, the code inside the else block is executed, which simply prints the contents of the file.
 -- Finally, the code inside the finally block is executed, which prints a thank you message.
 """
+
+# Example 3: A function that uses a nested function for error checking
+"""
+In this example, we define a function divide() that takes two parameters x and y and returns their division. 
+he function checks for division by zero using a nested function check_division(), 
+which raises a custom exception called DivisionError.
+"""
+class DivisionError(Exception):
+    pass
+
+def divide(x, y):
+    def check_division():
+        if y == 0:
+            raise DivisionError("Division by zero is not allowed.")
+    check_division()
+    return x / y
+
+try:
+    result = divide(10, 2)
+    print(result) # Output: 5.0
+
+    result = divide(10, 0)
+    print(result)
+except DivisionError as e:
+    print(e) # Output: Division by zero is not allowed.
+
+# Explanation:
+
+"""
+-- We define a custom exception called DivisionError using the Exception class.
+-- We define a function divide() that takes two parameters x and y.
+-- The function defines a nested function called check_division() that checks for division by zero by raising the DivisionError exception.
+-- The check_division() function is called before the division operation is performed.
+-- If the division operation is successful, the result is returned.
+-- We use a try block to call the divide() function twice: once with the parameters (10, 2) and once with the parameters (10, 0).
+-- The first call to divide() is successful, and the result is printed.
+-- The second call to divide() raises the DivisionError exception, which is caught in the except block and its error message is printed.
+"""
