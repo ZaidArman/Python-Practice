@@ -25,14 +25,20 @@ print(int(b)) # to convert to an integer., where b is a float
 print(float(a)) # to convert to a float. where a is a int 
 print(round(b)) # to round to a float value = 3.897 into 4.
 
-# Python has builtin function i.e., map, map is often used with lambda
-# Example 1
-def add1(x): 
-    return x+1
-print(map(add1, [1,2,3,4]))
-print(map(lambda x: x+1, [1,2,3,4]))
+# Python has builtin function like "filter", but, 
+# The "reduce()" function was moved to the functools module in Python 3, so you need to import it before you can use it.
 
-#example 2: 
+from functools import reduce
 def add(x, y): 
     return x+y
-print(map(add,[1,2,3,4],[100,200,300,400]))
+print(reduce(add, [1,2,3,4]))
+print(filter(add, [1,2,3,4]))
+
+# Filter():
+"""
+filter() takes a function and a sequence as input and returns a new sequence consisting of elements for which the function returns True
+"""
+# reduce()
+"""
+reduce() takes a function and a sequence as input and returns a single value by applying the function cumulatively to the sequence. 
+"""
