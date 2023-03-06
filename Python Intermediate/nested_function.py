@@ -5,15 +5,14 @@ A function defined inside a function is visible only inside that function.
 """
 
 #Example 1:
-
 def outer():
     def inner(x):
         return x**2
     return inner
-
 square = outer()
 result = square(5)
 print(result) # Output: 25
+
 
 
 # Example 2:

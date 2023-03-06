@@ -1,5 +1,5 @@
 """
-Excercise-1:
+Excercise:
 Write a program which does the following:
 - Take a number input from the console sample input
 - We need to output to the console the multiplication table for that number using the "for" loop in the format given in the IDE
