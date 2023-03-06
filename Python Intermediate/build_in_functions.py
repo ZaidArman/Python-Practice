@@ -24,3 +24,15 @@ print(str(arr)) # to convert to a string, where arr is a array
 print(int(b)) # to convert to an integer., where b is a float
 print(float(a)) # to convert to a float. where a is a int 
 print(round(b)) # to round to a float value = 3.897 into 4.
+
+# Python has builtin function i.e., map, map is often used with lambda
+# Example 1
+def add1(x): 
+    return x+1
+print(map(add1, [1,2,3,4]))
+print(map(lambda x: x+1, [1,2,3,4]))
+
+#example 2: 
+def add(x, y): 
+    return x+y
+print(map(add,[1,2,3,4],[100,200,300,400]))
