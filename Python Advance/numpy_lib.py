@@ -42,7 +42,3 @@ print("Standard deraivtion of a sales: ", np.std(sales)) # Calculate the standar
 SALES = np.array([190, 210, 185, 235, 170, 270, 240, 225]) # Create a NumPy array of SALES
 MARKETING = np.array([35, 50, 45, 110, 85, 95, 70, 80]) # Create a NumPy array of marketing expenses
 print("# correlation b/t SALES and Marketing: ", np.corrcoef(SALES, MARKETING)) # Calculate the correlation between the two arrays
-
-
-
-
