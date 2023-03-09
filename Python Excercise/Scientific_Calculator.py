@@ -80,7 +80,8 @@ while True:
     print(" |***** 17. Area of Square ******** |")
     print(" |***** 18. Quit ****************** |")
     print(" |********************************* |")
-    
+
+    print("\n\n")
     choice = int(input("Enter your choice (1-18): "))
 
     if choice in (1, 2, 3, 4, 5):
